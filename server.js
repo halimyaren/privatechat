@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const express = require("express");
 const http = require("http");
 const { Server } = require("socket.io");
@@ -121,7 +121,6 @@ const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
     console.log("Server çalışıyor: http://localhost:" + PORT);
 });
-=======
 const express = require("express");
 const http = require("http");
 const { Server } = require("socket.io");
@@ -244,4 +243,4 @@ const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
     console.log("Server çalışıyor: http://localhost:" + PORT);
 });
->>>>>>> 728684f2f586bc88daeeb164e00e0724ccc1297b
+
